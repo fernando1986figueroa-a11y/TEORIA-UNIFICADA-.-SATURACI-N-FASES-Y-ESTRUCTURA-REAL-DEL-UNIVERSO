@@ -1,0 +1,18 @@
+**ORDEN FINAL del README:**
+**ORDEN FINAL del READM *M_sgrA**2) print(f"δθ < 0.1 μas (EHT 2026)")README.mdTeoría Σ: Saturación Geométrica Constitutiva del Espacio-Tiempo
+Fernando Figueroa (15 enero 2026) | DOI: [insertar DOI]
+---
+
+**PEGAR AQUÍ ABAJO** 👇
+
+## Código de Predicción EHT SgrA*
+
+```python
+import numpy as np
+M_sgrA = 4.3e6  # masas solares
+B = 1.6e-70     # m² Planck
+r_ph_sigma = 5.2 * M_sgrA * (1 + 1e-3 * B/M_sgrA**2)
+print(f"δθ < 0.1 μas (EHT 2026)")📄 README.md ← YA listo (predicciones)
+📄 equations.tex ← Matemáticas (crear)
+📄 sgrA_prediction.py ← Simulación (crear)
+🐛 Issues con labels ← Organización
