@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{\textbf{The B Principle: Minimal Distinction, Holographic Saturation and Non-Perturbative Closure of Gravitational EFT}}
+
+\author{Fernando Figueroa Gutiérrez \\
+Investigador Independiente \\
+Chihuahua, México \\
+\texttt{fernando1986figueroa@gmail.com}}
+
+\date{Marzo 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Proponemos un marco de un solo parámetro en el cual una capacidad relacional finita 
+\( B = \hbar G / c^3 \) define la unidad mínima de distinción geométrica. A partir de este principio, se derivan el límite holográfico de entropía, una curvatura máxima \( R_{\max} = 1/B \) y un cierre no perturbativo de la teoría de campo efectivo gravitacional dado por \( f(R) = R/(1+BR) \). El modelo elimina singularidades por construcción y conecta estructura pregeométrica, información y dinámica gravitacional. Se discuten consecuencias observacionales como ecos gravitacionales y un modo escalar con masa \( m^2 = 1/(6B) \).
+\end{abstract}
+
+\section{Introducción}
+
+Uno de los problemas centrales de la física teórica es la ausencia de un principio unificador que conecte geometría, información y dinámica gravitacional. En este trabajo proponemos que todos estos aspectos emergen de una única cantidad estructural: la capacidad mínima de distinción \( B \).
+
+\section{El Principio B}
+
+Definimos la escala fundamental:
+
+\begin{equation}
+B = \frac{\hbar G}{c^3}
+\end{equation}
+
+Interpretamos \( B \) como el área mínima asociada a una distinción física elemental.
+
+\section{Sustrato $\Sigma$}
+
+El sustrato fundamental se modela como una red de estados con capacidad relacional finita. Esta finitud implica que el número de configuraciones distinguibles en una región está acotado por su frontera.
+
+\section{Límite Holográfico}
+
+\begin{equation}
+S = \frac{A}{4B}
+\end{equation}
+
+Este resultado surge como consecuencia directa de la saturación de capacidad del sustrato.
+
+\section{Ley Constitutiva}
+
+Postulamos una relación saturante entre densidad y curvatura:
+
+\begin{equation}
+R = \frac{\rho}{1 + B\rho}
+\end{equation}
+
+Esto introduce un límite máximo:
+
+\begin{equation}
+R_{\max} = \frac{1}{B}
+\end{equation}
+
+\section{Acción Efectiva}
+
+La dinámica se describe mediante:
+
+\begin{equation}
+f(R) = \frac{R}{1 + BR}
+\end{equation}
+
+Expansión:
+
+\begin{equation}
+f(R) = R - BR^2 + B^2 R^3 - \cdots
+\end{equation}
+
+\section{Relación con EFT}
+
+Los coeficientes siguen:
+
+\begin{equation}
+\alpha_n \sim (-1)^{n-1} B^{n-1}
+\end{equation}
+
+La teoría se interpreta como una resumación no perturbativa.
+
+\section{Modo Escalar}
+
+\begin{equation}
+m^2 = \frac{1}{6B}
+\end{equation}
+
+El modo es masivo y se desacopla a escalas macroscópicas.
+
+\section{Cosmología}
+
+\begin{equation}
+3H^2 \approx 8\pi G\rho - \frac{1}{2B}
+\end{equation}
+
+\begin{equation}
+\rho_{\max} = \frac{1}{16\pi G B}
+\end{equation}
+
+\section{Ecos Gravitacionales}
+
+\begin{equation}
+\Delta t_{\text{eco}} = F(a/M)\, M \ln\left(\frac{M^2}{B}\right)
+\end{equation}
+
+\begin{equation}
+F(0) \approx 4 + \frac{2(1-2\ln 2)}{\ln(M^2/B)}
+\end{equation}
+
+\section{Dimensionalidad}
+
+\begin{equation}
+c_D = \ell_P^{D-3}/4
+\end{equation}
+
+Consistencia requiere:
+
+\begin{equation}
+D = 3
+\end{equation}
+
+\section{Conclusión}
+
+La Teoría $\Sigma$ propone que una única escala \( B \) regula simultáneamente geometría, información y dinámica. El modelo elimina singularidades, reproduce el régimen clásico y proporciona predicciones falsables.
+
+\end{document}
